@@ -6,39 +6,16 @@
 </head>
 <body>
 	<script src="intermediate.json" type="text/javascript"></script>
-
-	<div>
-	<table border=1>
-		<caption>Emloyees</caption>
-		<thead>
-			<tr>
-				<th>Unique ID</th>
-				<th>First Name</th>
-				<th>Last Name</th>
-				<th>Email</th>
-				<th>Job Title</th>
-				<th>Salary</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-
-			</tr>
-		</tbody>
-	</table>
-	</div>
-
-
 	<script>
-		//var employees = JSON.parse(employee);
-		/*var table = document.getElementById("mytab1");
-		for (var i=0, row; row = table.rows[i];i++){
-				document.write([i]);
-		};*/
-
 		var table = '';
-		var rows = 10;
-		var cols = employee.length;
+			table += '<tr>';
+			table += '<th>' + "Unique ID" + '</th>';
+			table += '<th>' + "First Name" + '</th>';
+			table += '<th>' + "Last Name" + '</th>';
+			table += '<th>' + "Email-Adress" + '</th>';
+			table += '<th>' + "Job Title" + '</th>';
+			table += '<th>' + "Salary" + '</th>';
+			table += '</tr>';
 		for (var r = 0; r < employee.length; r++){
 			table += '<tr>';
 			table += '<td>' + employee[r].UniqueID + '</td>';
@@ -47,18 +24,9 @@
 			table += '<td>' + employee[r].Emailaddress + '</td>';
 			table += '<td>' + employee[r].JobTitle + '</td>';
 			table += '<td>' + employee[r].Salary + '</td>';
-
-			
-			
-				
-
-
-			
 			table += '</tr>';
 		} 
 		document.write('<table border=1>' + table + '</table>');
-
-
 	</script>
 
 </body>

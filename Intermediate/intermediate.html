@@ -2,32 +2,30 @@
 <html>
 <head>
 	<title></title>
-
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
 </head>
 <body>
 	<script src="intermediate.json" type="text/javascript"></script>
 	<script>
 		var table = '';
-			table += '<tr>';
+			table += '<tr style="background-color:papayawhip; color:brown; font-family: Crimson Text, serif;">';
 			table += '<th>' + "Unique ID" + '</th>';
 			table += '<th>' + "First Name" + '</th>';
 			table += '<th>' + "Last Name" + '</th>';
-			table += '<th>' + "Email-Adress" + '</th>';
+			table += '<th>' + "Email-Address" + '</th>';
 			table += '<th>' + "Job Title" + '</th>';
 			table += '<th>' + "Salary" + '</th>';
 			table += '</tr>';
 		for (var r = 0; r < employee.length; r++){
 			table += '<tr>';
-			table += '<td>' + employee[r].UniqueID + '</td>';
-			table += '<td>' + employee[r].FirstName + '</td>';
-			table += '<td>' + employee[r].LastName + '</td>';
-			table += '<td>' + employee[r].Emailaddress + '</td>';
-			table += '<td>' + employee[r].JobTitle + '</td>';
-			table += '<td>' + employee[r].Salary + '</td>';
-			table += '</tr>';
-		} 
-		document.write('<table border=1>' + table + '</table>');
+			table += '<td align="center"style="background-color:papayawhip; color:brown;font-family: Crimson Text, serif;"">' + employee[r].UniqueID + '</td>';
+			table += '<td align="center"style="background-color:papayawhip; color:brown;font-family: Crimson Text, serif;"">' + employee[r].FirstName + '</td>';
+			table += '<td align="center"style="background-color:papayawhip; color:brown;font-family: Crimson Text, serif;"">' + employee[r].LastName + '</td>';
+			table += '<td align="center"style="background-color:papayawhip; color:brown;font-family: Crimson Text, serif;"">' + employee[r].Emailaddress + '</td>';
+			table += '<td align="center"style="background-color:papayawhip; color:brown;font-family: Crimson Text, serif;"">' + employee[r].JobTitle + '</td>';
+			table += '<td align="center"style="background-color:papayawhip; color:brown;font-family: Crimson Text, serif;"">' + employee[r].Salary + '</td>';
+			table += '</tr>';} 
+		document.write('<table border=1 align="center" style="border: 2px solid brown;">' + table + '</table>');
 	</script>
-
 </body>
 </html>

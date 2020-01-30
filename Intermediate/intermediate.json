@@ -1,0 +1,10 @@
+var employee = [{"UniqueID": "1","FirstName": "Adolf", "LastName": "Stalin", "Emailaddress": "communism@NSDAP.org", "JobTitle": "Dictator", "Salary": "666"},
+{"UniqueID": "2","FirstName": "Adolf", "LastName": "Stalin", "Emailaddress": "communism@NSDAP.org", "JobTitle": "Dictator", "Salary": "666"},
+{"UniqueID": "3","FirstName": "Adolf", "LastName": "Stalin", "Emailaddress": "communism@NSDAP.org", "JobTitle": "Dictator", "Salary": "666"},
+{"UniqueID": "4","FirstName": "Adolf", "LastName": "Stalin", "Emailaddress": "communism@NSDAP.org", "JobTitle": "Dictator", "Salary": "666"},
+{"UniqueID": "5","FirstName": "Adolf", "LastName": "Stalin", "Emailaddress": "communism@NSDAP.org", "JobTitle": "Dictator", "Salary": "666"},
+{"UniqueID": "6","FirstName": "Adolf", "LastName": "Stalin", "Emailaddress": "communism@NSDAP.org", "JobTitle": "Dictator", "Salary": "666"},
+{"UniqueID": "7","FirstName": "Adolf", "LastName": "Stalin", "Emailaddress": "communism@NSDAP.org", "JobTitle": "Dictator", "Salary": "666"},
+{"UniqueID": "8","FirstName": "Adolf", "LastName": "Stalin", "Emailaddress": "communism@NSDAP.org", "JobTitle": "Dictator", "Salary": "666"},
+{"UniqueID": "9","FirstName": "Adolf", "LastName": "Stalin", "Emailaddress": "communism@NSDAP.org", "JobTitle": "Dictator", "Salary": "666"},
+{"UniqueID": "10","FirstName": "Adolf", "LastName": "Stalin", "Emailaddress": "communism@NSDAP.org", "JobTitle": "Dictator", "Salary": "666"}];

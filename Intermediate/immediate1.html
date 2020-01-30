@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+</head>
+<body>
+	<script src="intermediate.json" type="text/javascript"></script>
+<script>
+    document.writeln("<h2>JSON array object</h2>");
+
+
+    var i = 0
+    document.writeln("<table border='2'><tr>");
+    for (i = 0; i < employee.length; i++) {
+        document.writeln("<td>");
+        document.writeln("<table border='1' width=100 >");
+        document.writeln("<tr><td><b>First Name</b></td><td width=50>" + employee[i].FirstName + "</td></tr>");
+        document.writeln("<tr><td><b>Last Name</b></td><td width=50>" + employee[i].LastName + "</td></tr>");
+        document.writeln("<tr><td><b>E-mail</b></td><td width=50>" + employee[i].Emailaddress + "</td></tr>");
+        document.writeln("<tr><td><b>Job Title</b></td><td width=50>" + employee[i].JobTitle + "</td></tr>");
+        document.writeln("<tr><td><b>Salary</b></td><td width=50>" + employee[i].Salary + "</td></tr>");
+        document.writeln("<tr><td><b>Unique ID</b></td><td width=50>" + employee[i].UniqueID + "</td></tr>");
+        document.writeln("</table>");
+        document.writeln("</td>");
+        document.write("<br>");
+    }
+    document.writeln("</tr></table>");
+    </script>
+
+</body>
+</html>

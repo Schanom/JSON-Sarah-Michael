@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic 1</title>
+</head>
+<body>
+	
+	<script type="text/javascript" src="index.json"></script>
+		
+<script>
+
+var mySandwiches = JSON.parse(sandwiches);
+var myFries = JSON.parse(fries);
+console.log(mySandwiches);
+
+
+document.write("My favorite samich is a" + mySandwiches[0].sandwich + "which has aprox." + mySandwiches[0].calories + "calories, along with it i enjoy eating" + myFries[0].fries_size + "which has about " + myFries[0].calories + ".");
+
+
+
+</script>
+
+
+</body>
+</html>
